@@ -1,0 +1,400 @@
+demo
+Loading data ...
+Running single metric LMNN (with dimensionality reduction from 50d to 15d)  ...
+LMNN stable version 2.2
+Setting neighborhood to k=1
+Initial starting point not specified.
+Starting with PCA.
+5104 input vectors with 50 dimensions
+1 nearest genuine neighbors for class 0:...(89%) ...(100%) 1 nearest genuine neighbors for class 1:...(100%) 1 nearest genuine neighbors for class 2:...(100%) 1 nearest genuine neighbors for class 3:...(100%) 1 nearest genuine neighbors for class 4:...(100%) 1 nearest genuine neighbors for class 5:...(100%) 1 nearest genuine neighbors for class 6:...(100%) 1 nearest genuine neighbors for class 7:...(100%) 1 nearest genuine neighbors for class 8:...(100%) 1 nearest genuine neighbors for class 9:...(100%) 
+Updating working set.
+Building tree ...done
+    3.4294
+
+kNN validation error: 3.43 <= Inf   :-) 0/0
+
+Updating working set.
+Iteration 15: Obj: 31038.943937  Added 44 active constraints. #Active constraints: 5076
+
+Building tree ...done
+    3.4751
+
+kNN validation error: 3.48 > 3.43   :-( 0/0
+
+Updating working set.
+Iteration 32: Obj: 28714.287691  Added 51 active constraints. #Active constraints: 5127
+
+Building tree ...done
+    3.5208
+
+kNN validation error: 3.52 > 3.43   :-( 1/0
+
+Updating working set.
+Iteration 51: Obj: 26660.258341  Added 44 active constraints. #Active constraints: 5171
+
+
+Updating working set.
+Iteration 72: Obj: 24753.322006  Added 47 active constraints. #Active constraints: 5218
+
+Building tree ...done
+    3.3379
+
+kNN validation error: 3.34 <= 3.43   :-) 2/0
+
+Updating working set.
+Iteration 95: Obj: 22933.543536  Added 48 active constraints. #Active constraints: 5266
+
+Building tree ...done
+    3.3379
+
+kNN validation error: 3.34 <= 3.34   :-) 0/0
+
+Updating working set.
+Iteration 120: Obj: 21106.483063  Added 68 active constraints. #Active constraints: 5334
+
+Building tree ...done
+    3.3836
+
+kNN validation error: 3.38 > 3.34   :-( 0/0
+
+Updating working set.
+Iteration 148: Obj: 19132.647247  Added 79 active constraints. #Active constraints: 5413
+
+Building tree ...done
+    3.4294
+
+kNN validation error: 3.43 > 3.34   :-( 1/0
+Building tree ...done
+    3.4294
+
+kNN validation error: 3.43 > 3.34   :-( 2/0
+
+Updating working set.
+Iteration 179: Obj: 16954.730824  Added 112 active constraints. #Active constraints: 5525
+
+Building tree ...done
+    3.3836
+
+kNN validation error: 3.38 > 3.34   :-( 3/0
+
+Updating working set.
+Iteration 213: Obj: 14527.495398  Added 136 active constraints. #Active constraints: 5661
+
+Building tree ...done
+    3.2465
+
+kNN validation error: 3.25 <= 3.34   :-) 4/0
+Building tree ...done
+    3.0178
+
+kNN validation error: 3.02 <= 3.25   :-) 0/0
+
+Updating working set.
+Iteration 250: Obj: 11856.530859  Added 213 active constraints. #Active constraints: 5874
+
+Building tree ...done
+    2.9721
+
+kNN validation error: 2.97 <= 3.02   :-) 0/0
+
+Updating working set.
+Iteration 291: Obj: 9015.098495  Added 402 active constraints. #Active constraints: 6276
+
+Building tree ...done
+    2.7892
+
+kNN validation error: 2.79 <= 2.97   :-) 0/0
+Building tree ...done
+    2.7435
+
+kNN validation error: 2.74 <= 2.79   :-) 0/0
+
+Updating working set.
+Iteration 336: Obj: 6353.125138  Added 1090 active constraints. #Active constraints: 7366
+
+Building tree ...done
+    2.5606
+
+kNN validation error: 2.56 <= 2.74   :-) 0/0
+Building tree ...done
+    2.6063
+
+kNN validation error: 2.61 > 2.56   :-( 0/0
+
+Updating working set.
+Iteration 386: Obj: 4547.691670  Added 2630 active constraints. #Active constraints: 9996
+
+Building tree ...done
+    2.5149
+
+kNN validation error: 2.51 <= 2.56   :-) 1/0
+Building tree ...done
+    2.6520
+
+kNN validation error: 2.65 > 2.51   :-( 0/0
+
+Updating working set.
+Iteration 441: Obj: 4059.567283  Added 2092 active constraints. #Active constraints: 12088
+
+Building tree ...done
+    2.4234
+
+kNN validation error: 2.42 <= 2.51   :-) 1/0
+Building tree ...done
+    2.6063
+
+kNN validation error: 2.61 > 2.42   :-( 0/0
+Building tree ...done
+    2.6520
+
+kNN validation error: 2.65 > 2.42   :-( 1/0
+MAXIMUM Number of iterations reached. Terminating without convergence.
+Computing nearest neighbors ...
+3 nearest genuine neighbors for class 0:...(100%) 3 nearest genuine neighbors for class 1:...(100%) 3 nearest genuine neighbors for class 2:...(100%) 3 nearest genuine neighbors for class 3:...(100%) 3 nearest genuine neighbors for class 4:...(100%) 3 nearest genuine neighbors for class 5:...(100%) 3 nearest genuine neighbors for class 6:...(100%) 3 nearest genuine neighbors for class 7:...(100%) 3 nearest genuine neighbors for class 8:...(100%) 3 nearest genuine neighbors for class 9:...(100%) 0.05%: 0.1.2.3.4.5.6.7.8.9. err:4.60%
+24.96%: 0.1.2.3.4.5.6.7.8.9. err:4.90%
+49.88%: 0.1.2.3.4.5.6.7.8.9. err:5.13%
+74.79%: 0.1.2.3.4.5.6.7.8.9. err:5.15%
+99.70%: 0.1.2.3.4.5.6.7.8.9. err:5.13%
+
+Energy error:5.13%
+Building tree ...done
+    1.9065
+    5.7299
+
+Building tree ...done
+    2.2219
+    5.1320
+
+3-NN Euclidean training error: 2.22
+3-NN Euclidean testing error: 5.13
+15-dim usps digits data set (after dim-reduction):
+3-NN Malhalanobis training error: 1.91
+3-NN Malhalanobis testing error: 5.73
+
+Energy classification error: 5.13
+
+Training time: 9.08s
+
+
+Running single metric LMNN  ...
+LMNN stable version 2.2
+Setting neighborhood to k=1
+Initial starting point not specified.
+Starting with PCA.
+5104 input vectors with 50 dimensions
+1 nearest genuine neighbors for class 0:...(88%) ...(100%) 1 nearest genuine neighbors for class 1:...(100%) 1 nearest genuine neighbors for class 2:...(100%) 1 nearest genuine neighbors for class 3:...(100%) 1 nearest genuine neighbors for class 4:...(100%) 1 nearest genuine neighbors for class 5:...(100%) 1 nearest genuine neighbors for class 6:...(100%) 1 nearest genuine neighbors for class 7:...(100%) 1 nearest genuine neighbors for class 8:...(100%) 1 nearest genuine neighbors for class 9:...(100%) 
+Updating working set.
+Building tree ...done
+    2.6978
+
+kNN validation error: 2.70 <= Inf   :-) 0/0
+
+Updating working set.
+Iteration 15: Obj: 37640.628639  Added 5 active constraints. #Active constraints: 2118
+
+Building tree ...done
+    2.6978
+
+kNN validation error: 2.70 <= 2.70   :-) 0/0
+
+Updating working set.
+Iteration 32: Obj: 36874.221572  Added 3 active constraints. #Active constraints: 2121
+
+Building tree ...done
+    2.6063
+
+kNN validation error: 2.61 <= 2.70   :-) 0/0
+
+Updating working set.
+Iteration 51: Obj: 35993.299539  Added 6 active constraints. #Active constraints: 2127
+
+
+Updating working set.
+Iteration 72: Obj: 34998.853007  Added 13 active constraints. #Active constraints: 2140
+
+Building tree ...done
+    2.5149
+
+kNN validation error: 2.51 <= 2.61   :-) 0/0
+
+Updating working set.
+Iteration 95: Obj: 33857.706592  Added 7 active constraints. #Active constraints: 2147
+
+Building tree ...done
+    2.4691
+
+kNN validation error: 2.47 <= 2.51   :-) 0/0
+
+Updating working set.
+Iteration 120: Obj: 32511.045558  Added 16 active constraints. #Active constraints: 2163
+
+Building tree ...done
+    2.4691
+
+kNN validation error: 2.47 <= 2.47   :-) 0/0
+
+Updating working set.
+Iteration 148: Obj: 30845.586720  Added 24 active constraints. #Active constraints: 2187
+
+Building tree ...done
+    2.4234
+
+kNN validation error: 2.42 <= 2.47   :-) 0/0
+Building tree ...done
+    2.4691
+
+kNN validation error: 2.47 > 2.42   :-( 0/0
+
+Updating working set.
+Iteration 179: Obj: 28740.537783  Added 17 active constraints. #Active constraints: 2204
+
+Building tree ...done
+    2.5149
+
+kNN validation error: 2.51 > 2.42   :-( 1/0
+
+Updating working set.
+Iteration 213: Obj: 26092.176865  Added 31 active constraints. #Active constraints: 2235
+
+Building tree ...done
+    2.5606
+
+kNN validation error: 2.56 > 2.42   :-( 2/0
+Building tree ...done
+    2.6063
+
+kNN validation error: 2.61 > 2.42   :-( 3/0
+
+Updating working set.
+Iteration 250: Obj: 22832.017611  Added 66 active constraints. #Active constraints: 2301
+
+Building tree ...done
+    2.6520
+
+kNN validation error: 2.65 > 2.42   :-( 4/0
+
+Updating working set.
+Iteration 291: Obj: 18833.102760  Added 106 active constraints. #Active constraints: 2407
+
+Building tree ...done
+    2.7435
+
+kNN validation error: 2.74 > 2.42   :-( 5/0
+Building tree ...done
+    2.9721
+
+kNN validation error: 2.97 > 2.42   :-( 6/0
+
+Updating working set.
+Iteration 336: Obj: 14257.862076  Added 254 active constraints. #Active constraints: 2661
+
+Building tree ...done
+    2.9264
+
+kNN validation error: 2.93 > 2.42   :-( 7/0
+Building tree ...done
+    3.0636
+
+kNN validation error: 3.06 > 2.42   :-( 8/0
+
+Updating working set.
+Iteration 386: Obj: 9597.242956  Added 764 active constraints. #Active constraints: 3425
+
+Building tree ...done
+    3.2922
+
+kNN validation error: 3.29 > 2.42   :-( 9/0
+Building tree ...done
+    3.3836
+
+kNN validation error: 3.38 > 2.42   :-( 10/0
+
+Updating working set.
+Iteration 441: Obj: 5876.642577  Added 2438 active constraints. #Active constraints: 5863
+
+Building tree ...done
+    3.1550
+
+kNN validation error: 3.16 > 2.42   :-( 11/0
+Building tree ...done
+    2.7892
+
+kNN validation error: 2.79 > 2.42   :-( 12/0
+Building tree ...done
+    2.7435
+
+kNN validation error: 2.74 > 2.42   :-( 13/0
+MAXIMUM Number of iterations reached. Terminating without convergence.
+Computing nearest neighbors ...
+3 nearest genuine neighbors for class 0:...(100%) 3 nearest genuine neighbors for class 1:...(100%) 3 nearest genuine neighbors for class 2:...(100%) 3 nearest genuine neighbors for class 3:...(100%) 3 nearest genuine neighbors for class 4:...(100%) 3 nearest genuine neighbors for class 5:...(100%) 3 nearest genuine neighbors for class 6:...(100%) 3 nearest genuine neighbors for class 7:...(100%) 3 nearest genuine neighbors for class 8:...(100%) 3 nearest genuine neighbors for class 9:...(100%) 0.05%: 0.1.2.3.4.5.6.7.8.9. err:5.20%
+24.96%: 0.1.2.3.4.5.6.7.8.9. err:4.70%
+49.88%: 0.1.2.3.4.5.6.7.8.9. err:4.53%
+74.79%: 0.1.2.3.4.5.6.7.8.9. err:4.50%
+99.70%: 0.1.2.3.4.5.6.7.8.9. err:4.48%
+
+Energy error:4.48%
+Building tree ...done
+    2.2082
+    4.9826
+
+100-dim usps digits data set:
+3-NN classification:
+Training:	Euclidean=2.22	1-Metric(dim-red)=1.91	1-Metric(square)=2.21
+Testing:	Euclidean=5.13	1-Metric(dim-red)=5.73	1-Metric(square)=4.98
+
+Energy classification:
+Testing:	1-Metric(dim-red)=5.13	1-Metric(square)=4.48
+
+Training time: 15.24s
+
+
+
+Running multiple-metrics LMNN  ...
+Computing nearest neighbors ... 1 nearest genuine neighbors for class 0:.         ..(84)      .         ..(100)               1 nearest genuine neighbors for class 1:.         ..(100)     .         ..(100)               1 nearest genuine neighbors for class 2:.         ..(100)               1 nearest genuine neighbors for class 3:.         ..(100)               1 nearest genuine neighbors for class 4:.         ..(100)               1 nearest genuine neighbors for class 5:.         ..(100)               1 nearest genuine neighbors for class 6:.         ..(100)               1 nearest genuine neighbors for class 7:.         ..(100)               1 nearest genuine neighbors for class 8:.         ..(100)               1 nearest genuine neighbors for class 9:.         ..(100)                                                                      Finding impostors for class 0 ...(6258) (9950)  [30]     Finding impostors for class 1 ...(6258) (8375)  [64]     Finding impostors for class 2 ...(6092)  [497]    Finding impostors for class 3 ...(5483)  [204]    Finding impostors for class 4 ...(5433)  [1211]   Finding impostors for class 5 ...(4633)  [219]    Finding impostors for class 6 ...(5533)  [183]    Finding impostors for class 7 ...(5375)  [146]    Finding impostors for class 8 ...(4517)  [254]    Finding impostors for class 9 ...(5367)  [36]     Iter: 1:  Obj:42808.5553 Imps:2844   stepsize:1.000000e-07  diff:0  0.800000*Average           Iter: 2:  Obj:42795.1428 Imps:2842   stepsize:1.010000e-07  diff:-1.341249e+01  0.800000*Average           Iter: 3:  Obj:42781.6243 Imps:2840   stepsize:1.020100e-07  diff:-1.351852e+01  0.800000*Average           Iter: 4:  Obj:42767.9922 Imps:2838   stepsize:1.030301e-07  diff:-1.363215e+01  0.800000*Average           Iter: 5:  Obj:42754.2482 Imps:2834   stepsize:1.040604e-07  diff:-1.374396e+01  0.800000*Average           Iter: 6:  Obj:42740.4070 Imps:2831   stepsize:1.051010e-07  diff:-1.384125e+01  0.800000*Average           Iter: 7:  Obj:42726.4620 Imps:2830   stepsize:1.061520e-07  diff:-1.394493e+01  0.800000*Average           Iter: 8:  Obj:42712.3924 Imps:2826   stepsize:1.072135e-07  diff:-1.406966e+01  0.800000*Average           Iter: 9:  Obj:42698.2098 Imps:2825   stepsize:1.082857e-07  diff:-1.418254e+01  0.800000*Average           Iter: 10:  Obj:42683.8874 Imps:2825   stepsize:1.093685e-07  diff:-1.432239e+01  0.800000*Average           Iter: 11:  Obj:42669.4271 Imps:2820   stepsize:1.104622e-07  diff:-1.446033e+01  0.800000*Average           
+         Finding impostors for class 0 ...(6258) (9950)  [30]     Finding impostors for class 1 ...(6258) (8375)  [64]     Finding impostors for class 2 ...(6092)  [488]    Finding impostors for class 3 ...(5483)  [202]    Finding impostors for class 4 ...(5433)  [1207]   Finding impostors for class 5 ...(4633)  [218]    Finding impostors for class 6 ...(5533)  [181]    Finding impostors for class 7 ...(5375)  [144]    Finding impostors for class 8 ...(4517)  [251]    Finding impostors for class 9 ...(5367)  [34]     Iteration:11 Objective:42669.427091
+Added 0 new constraintsIter: 12:  Obj:42654.8641 Imps:2819   stepsize:1.115668e-07  diff:-1.456301e+01  0.800000*Average           Iter: 13:  Obj:42640.1626 Imps:2816   stepsize:1.126825e-07  diff:-1.470147e+01  0.800000*Average           Iter: 14:  Obj:42625.3292 Imps:2815   stepsize:1.138093e-07  diff:-1.483342e+01  0.800000*Average           Iter: 15:  Obj:42610.3543 Imps:2812   stepsize:1.149474e-07  diff:-1.497486e+01  0.800000*Average           Iter: 16:  Obj:42595.2604 Imps:2810   stepsize:1.160969e-07  diff:-1.509392e+01  0.800000*Average           Iter: 17:  Obj:42580.0370 Imps:2810   stepsize:1.172579e-07  diff:-1.522341e+01  0.800000*Average           Iter: 18:  Obj:42564.6730 Imps:2807   stepsize:1.184304e-07  diff:-1.536402e+01  0.800000*Average           Iter: 19:  Obj:42549.1979 Imps:2803   stepsize:1.196147e-07  diff:-1.547512e+01  0.800000*Average           Iter: 20:  Obj:42533.6050 Imps:2802   stepsize:1.208109e-07  diff:-1.559290e+01  0.800000*Average           Iter: 21:  Obj:42517.8846 Imps:2799   stepsize:1.220190e-07  diff:-1.572041e+01  0.800000*Average           Iter: 22:  Obj:42502.0358 Imps:2798   stepsize:1.232392e-07  diff:-1.584871e+01  0.800000*Average           Iter: 23:  Obj:42486.0480 Imps:2798   stepsize:1.244716e-07  diff:-1.598788e+01  0.800000*Average           Iter: 24:  Obj:42469.9094 Imps:2795   stepsize:1.257163e-07  diff:-1.613857e+01  0.800000*Average           Iter: 25:  Obj:42453.6397 Imps:2791   stepsize:1.269735e-07  diff:-1.626973e+01  0.800000*Average           Iter: 26:  Obj:42437.2325 Imps:2789   stepsize:1.282432e-07  diff:-1.640716e+01  0.800000*Average           Iter: 27:  Obj:42420.6959 Imps:2782   stepsize:1.295256e-07  diff:-1.653658e+01  0.800000*Average           Iter: 28:  Obj:42404.0779 Imps:2777   stepsize:1.308209e-07  diff:-1.661797e+01  0.800000*Average           Iter: 29:  Obj:42387.3335 Imps:2773   stepsize:1.321291e-07  diff:-1.674443e+01  0.800000*Average           Iter: 30:  Obj:42370.4634 Imps:2767   stepsize:1.334504e-07  diff:-1.687008e+01  0.800000*Average           Iter: 31:  Obj:42353.5156 Imps:2763   stepsize:1.347849e-07  diff:-1.694780e+01  0.800000*Average           Iter: 32:  Obj:42336.4353 Imps:2762   stepsize:1.361327e-07  diff:-1.708029e+01  0.800000*Average           
+         Finding impostors for class 0 ...(6258) (9950)  [30]     Finding impostors for class 1 ...(6258) (8375)  [64]     Finding impostors for class 2 ...(6092)  [467]    Finding impostors for class 3 ...(5483)  [196]    Finding impostors for class 4 ...(5433)  [1198]   Finding impostors for class 5 ...(4633)  [217]    Finding impostors for class 6 ...(5533)  [175]    Finding impostors for class 7 ...(5375)  [143]    Finding impostors for class 8 ...(4517)  [242]    Finding impostors for class 9 ...(5367)  [34]     Iteration:32 Objective:42336.435348
+Added 4 new constraintsIter: 33:  Obj:42319.2349 Imps:2766   stepsize:1.374941e-07  diff:-1.720041e+01  0.800000*Average           Iter: 34:  Obj:42301.8396 Imps:2764   stepsize:1.388690e-07  diff:-1.739537e+01  0.800000*Average           Iter: 35:  Obj:42284.2804 Imps:2761   stepsize:1.402577e-07  diff:-1.755921e+01  0.800000*Average           Iter: 36:  Obj:42266.5732 Imps:2760   stepsize:1.416603e-07  diff:-1.770719e+01  0.800000*Average           Iter: 37:  Obj:42248.7059 Imps:2757   stepsize:1.430769e-07  diff:-1.786729e+01  0.800000*Average           Iter: 38:  Obj:42230.7032 Imps:2753   stepsize:1.445076e-07  diff:-1.800267e+01  0.800000*Average           Iter: 39:  Obj:42212.5544 Imps:2751   stepsize:1.459527e-07  diff:-1.814885e+01  0.800000*Average           Iter: 40:  Obj:42194.2576 Imps:2748   stepsize:1.474123e-07  diff:-1.829670e+01  0.800000*Average           Iter: 41:  Obj:42175.8107 Imps:2748   stepsize:1.488864e-07  diff:-1.844697e+01  0.800000*Average           Iter: 42:  Obj:42157.1822 Imps:2747   stepsize:1.503752e-07  diff:-1.862843e+01  0.800000*Average           Iter: 43:  Obj:42138.3800 Imps:2747   stepsize:1.518790e-07  diff:-1.880220e+01  0.800000*Average           Iter: 44:  Obj:42119.4001 Imps:2743   stepsize:1.533978e-07  diff:-1.897993e+01  0.800000*Average           Iter: 45:  Obj:42100.2728 Imps:2741   stepsize:1.549318e-07  diff:-1.912729e+01  0.800000*Average           Iter: 46:  Obj:42080.9797 Imps:2739   stepsize:1.564811e-07  diff:-1.929309e+01  0.800000*Average           Iter: 47:  Obj:42061.5309 Imps:2735   stepsize:1.580459e-07  diff:-1.944882e+01  0.800000*Average           Iter: 48:  Obj:42041.9560 Imps:2733   stepsize:1.596263e-07  diff:-1.957490e+01  0.800000*Average           Iter: 49:  Obj:42022.2109 Imps:2730   stepsize:1.612226e-07  diff:-1.974511e+01  0.800000*Average           Iter: 50:  Obj:42002.3159 Imps:2727   stepsize:1.628348e-07  diff:-1.989501e+01  0.800000*Average           
+         Using metric for classification ...
+Computing nearest neighbors ...
+3 nearest genuine neighbors for class 0:...(100%)          3 nearest genuine neighbors for class 1:...(100%)          3 nearest genuine neighbors for class 2:...(100%)          3 nearest genuine neighbors for class 3:...(100%)          3 nearest genuine neighbors for class 4:...(100%)          3 nearest genuine neighbors for class 5:...(100%)          3 nearest genuine neighbors for class 6:...(100%)          3 nearest genuine neighbors for class 7:...(100%)          3 nearest genuine neighbors for class 8:...(100%)          3 nearest genuine neighbors for class 9:...(100%)          0.05%: 0.1.2.3.4.5.6.7.8.9. err:5.20%
+24.96%: 0.1.2.3.4.5.6.7.8.9. err:4.60%
+49.88%: 0.1.2.3.4.5.6.7.8.9. err:4.47%
+74.79%: 0.1.2.3.4.5.6.7.8.9. err:4.40%
+99.70%: 0.1.2.3.4.5.6.7.8.9. err:4.38%
+
+Energy error:4.38%
+Progress:[..........] Test error:4.8571% Progress:[*.........] Test error:4.9286% Progress:[**........] Test error:4.8331% Progress:[***.......] Test error:4.8331% Progress:[****......] Test error:4.8331% Progress:[*****.....] Test error:4.8331% Progress:[******....] Test error:4.8331% Progress:[*******...] Test error:4.8331% Progress:[********..] Test error:4.8331% Progress:[*********.] Test error:4.8331% Progress:[**********] Test error:4.8331% 
+50-dim usps digits data set:
+3-NN classification:
+Training:	Euclidean=2.22	1-Metric(dim-red)=1.91	1-Metric(full)=2.21	MultipleMetrics=2.21
+Testing:	Euclidean=5.13	1-Metric(dim-red)=5.73	1-Metric(full)=4.98	MultipleMetrics=4.83
+
+Energy classification:
+Testing:	1-Metric(dim-red)=5.13	1-Metric(full)=4.48	MultipleMetrics=4.38
+
+Training time: 24.90s (My Mac Mini requires 26s)
+
+demo -logfile "log.txt"
+{Attempt to execute SCRIPT demo as a function:
+/Users/prabhat/Documents/MATLAB/mLMNN2.3/demo.m
+} 
+matlab -logfile "log.txt"
+{Undefined function 'matlab' for input arguments of type 'char'.
+} 
+matlab -logfile "log.txt"
+{Undefined function 'matlab' for input arguments of type 'char'.
+} 
+matlabrc -logfile "log.txt"
+{Attempt to execute SCRIPT matlabrc as a function:
+/Applications/MATLAB_R2013b.app/toolbox/local/matlabrc.m
+} 
+logfile "log.txt"
+{Undefined function 'logfile' for input arguments of type 'char'.
+} 
+diary("off")
+ diary("off")
+       |
+{Error: The input character is not valid in MATLAB statements or expressions.
+} 
+diary('off')
